@@ -59,6 +59,7 @@ main{
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: #FEFFFE;
+    border-radius: 3px;
 }
 
 
@@ -78,6 +79,8 @@ main{
     height: 41px;
     padding: 2.5px;
     cursor: pointer;
+    
+
 }
 .user-img-profile{
     border-radius: 50%;
@@ -85,6 +88,7 @@ main{
     height: 36px;
     padding: 0;
     margin: 0;
+    border: 2px solid #FEFFFE;
 }
 .user{
     display: flex;
@@ -127,6 +131,12 @@ main{
 .like-icon:hover{
     color: red;
     cursor: pointer;
+    transition: .3s;
+    transform: scale(1.2);
+}
+.bx-send:hover, .bx-bookmark:hover, .bx-dots-horizontal-rounded:hover{
+    cursor: pointer;
+    color: #00376b;
 }
 
 span{
