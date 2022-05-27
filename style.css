@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,46 +11,49 @@
 
 /* ------- BODY ------- */
 
-body{
+body {
     background-color: #FAFAFA;
 }
 
 /* ------- HEADER ------- */
-header{
+header {
     display: flex;
     justify-content: space-between;
-    padding-left: 1rem ;
-    padding-right: 1rem ;
+    padding-left: 1rem;
+    padding-right: 1rem;
     height: 3rem;
     align-items: center;
     background-color: #FEFFFE;
     border-bottom: 1px solid #26262614;
 }
-.logo, .camara-icon-header{
+
+.logo,
+.camara-icon-header {
     font-size: 1.5rem;
 }
 
 
 /* ------- MAIN - CARDS-CONTAINER ------- */
 
-main{
-    padding: 4rem 2rem 4rem 2rem;    
+main {
+    padding: 4rem 2rem 4rem 2rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 1500px;
 }
 
-.cards-container{
+.cards-container {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     column-gap: 2rem;
     justify-content: center;
- 
+
 }
+
 /* ------- CARD ------- */
 
-.card-container{
+.card-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -66,25 +69,26 @@ main{
 
 
 /* CARDHEADER */
-.card-header{
+.card-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1rem 1rem 1rem;
 }
 
-.profile-img-story-active{
+.profile-img-story-active {
     background: rgb(255, 201, 0);
-    background: linear-gradient(36deg, rgb(255,201,0) 13%, rgb(255, 0, 95) 73%, rgb(255,0,237) 100%);
+    background: linear-gradient(36deg, rgb(255, 201, 0) 13%, rgb(255, 0, 95) 73%, rgb(255, 0, 237) 100%);
     border-radius: 50%;
     width: 41px;
     height: 41px;
     padding: 2.5px;
     cursor: pointer;
-    
+
 
 }
-.user-img-profile{
+
+.user-img-profile {
     border-radius: 50%;
     width: 36px;
     height: 36px;
@@ -92,12 +96,13 @@ main{
     margin: 0;
     border: 2px solid #FEFFFE;
 }
-.user{
+
+.user {
     display: flex;
     align-items: center;
 }
 
-.username{
+.username {
     margin-left: .5rem;
     font-weight: 500;
     cursor: pointer;
@@ -105,10 +110,11 @@ main{
 
 /* CARDIMG */
 
-.card-img-container{
+.card-img-container {
     overflow: hidden;
-}    
-.card-img{
+}
+
+.card-img {
     display: block;
     width: 400px;
     height: 500px;
@@ -116,43 +122,49 @@ main{
 
 /* CARDFOOTER */
 
-.card-footer{
+.card-footer {
     padding: 1rem;
 }
-.card-footer-icons{
+
+.card-footer-icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.5rem;
 }
-.likes{
+
+.likes {
     margin: .5rem 0 .5rem;
     font-weight: 500;
     cursor: pointer;
 }
-.like-icon:hover{
+
+.like-icon:hover {
     color: red;
     cursor: pointer;
     transition: .3s;
     transform: scale(1.2);
 }
-.bx-send:hover, .bx-bookmark:hover, .bx-dots-horizontal-rounded:hover{
+
+.bx-send:hover,
+.bx-bookmark:hover,
+.bx-dots-horizontal-rounded:hover {
     cursor: pointer;
     color: #00376b;
 }
 
-span{
+span {
     font-weight: 500;
     cursor: pointer;
 }
 
-.account-span{
+.account-span {
     font-weight: 400;
     cursor: pointer;
-    color:#00376b;
+    color: #00376b;
 }
 
-.date{
+.date {
     margin: .5rem 0 .5rem;
     font-weight: 300;
     font-size: 12px;
