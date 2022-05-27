@@ -31,21 +31,23 @@ header{
 }
 
 
-/* ------- MAIN - CARD-CONTAINER ------- */
+/* ------- MAIN - CARDS-CONTAINER ------- */
 
 main{
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 4rem 2rem 4rem 2rem;    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
 }
 
-.cards{
+.cards-container{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     column-gap: 2rem;
-    max-width: 1300px;
     justify-content: center;
+ 
 }
-
 /* ------- CARD ------- */
 
 .card-container{
